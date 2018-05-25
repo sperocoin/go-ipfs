@@ -11,9 +11,9 @@ import (
 	unixfs "github.com/ipfs/go-ipfs/core/commands/unixfs"
 
 	lgc "github.com/ipfs/go-ipfs/commands/legacy"
-	"gx/ipfs/QmPD1shgXLux1wASLMmCx9hLwQS5tj2Sw1f8qtaXyM7MgR/go-ipfs-cmds"
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"
 	"gx/ipfs/QmVViZcg6N29WMrbfbzuYXFAGVoCvcR5oqadxfnMcLMnmx/go-ipfs-cmdkit"
+	"gx/ipfs/QmXvZ21uH41KpGPSVpMLTde4jif7rGxTgiM6CSxoRQnjdF/go-ipfs-cmds"
 )
 
 var log = logging.Logger("core/commands")

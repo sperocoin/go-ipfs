@@ -7,9 +7,9 @@ import (
 	"os"
 	"reflect"
 
-	"gx/ipfs/QmPD1shgXLux1wASLMmCx9hLwQS5tj2Sw1f8qtaXyM7MgR/go-ipfs-cmds"
 	"gx/ipfs/QmVViZcg6N29WMrbfbzuYXFAGVoCvcR5oqadxfnMcLMnmx/go-ipfs-cmdkit"
 	"gx/ipfs/QmVViZcg6N29WMrbfbzuYXFAGVoCvcR5oqadxfnMcLMnmx/go-ipfs-cmdkit/files"
+	"gx/ipfs/QmXvZ21uH41KpGPSVpMLTde4jif7rGxTgiM6CSxoRQnjdF/go-ipfs-cmds"
 
 	oldcmds "github.com/ipfs/go-ipfs/commands"
 )

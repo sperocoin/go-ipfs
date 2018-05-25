@@ -22,11 +22,11 @@ import (
 	ft "github.com/ipfs/go-ipfs/unixfs"
 	uio "github.com/ipfs/go-ipfs/unixfs/io"
 
-	cmds "gx/ipfs/QmPD1shgXLux1wASLMmCx9hLwQS5tj2Sw1f8qtaXyM7MgR/go-ipfs-cmds"
 	humanize "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"
 	cmdkit "gx/ipfs/QmVViZcg6N29WMrbfbzuYXFAGVoCvcR5oqadxfnMcLMnmx/go-ipfs-cmdkit"
 	offline "gx/ipfs/QmWM5HhdG5ZQNyHQ5XhMdGmV9CvLpFynQfGpTxN2MEM7Lc/go-ipfs-exchange-offline"
+	cmds "gx/ipfs/QmXvZ21uH41KpGPSVpMLTde4jif7rGxTgiM6CSxoRQnjdF/go-ipfs-cmds"
 	mh "gx/ipfs/QmZyZDi491cCNTLfAhwcaDii2Kg4pwKRkhqQzURGDvY6ua/go-multihash"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"

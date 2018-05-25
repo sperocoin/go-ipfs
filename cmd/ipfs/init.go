@@ -17,8 +17,8 @@ import (
 	config "github.com/ipfs/go-ipfs/repo/config"
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 
-	"gx/ipfs/QmPD1shgXLux1wASLMmCx9hLwQS5tj2Sw1f8qtaXyM7MgR/go-ipfs-cmds"
 	"gx/ipfs/QmVViZcg6N29WMrbfbzuYXFAGVoCvcR5oqadxfnMcLMnmx/go-ipfs-cmdkit"
+	"gx/ipfs/QmXvZ21uH41KpGPSVpMLTde4jif7rGxTgiM6CSxoRQnjdF/go-ipfs-cmds"
 )
 
 const (
