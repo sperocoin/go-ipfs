@@ -5,12 +5,12 @@ import (
 	"io"
 )
 
-func newSizeAdjReadSeekCloser(base ReadSeekCloser, size uint64) *sizeAdjReadSeekCloser {
+func newSizeAdjReadSeekCloser(base ReadSeekCloser, size uint64) (*sizeAdjReadSeekCloser,error) {
 	r := &sizeAdjReadSeekCloser{base: base, size: int64(size)}
 	if r.size < 0 {
-		panic("size limited 2^63 − 1")
+		return nil, errors.New("sizeAdjReadSeekCloser: size limited 2^63 − 1")
 	}
-	return r
+	return r, nil
 }
 
 type sizeAdjReadSeekCloser struct {
@@ -49,7 +49,7 @@ func (r *sizeAdjReadSeekCloser) Seek(offset int64, whence int) (int64, error) {
 	case io.SeekCurrent:
 		newOffset += offset
 	case io.SeekEnd:
-		newOffset = r.size + offset
+		newOffset = r.size - offset
 	}
 	if newOffset < 0 {
 		return -1, errors.New("Seek will result in negative position")
